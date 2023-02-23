@@ -6,9 +6,9 @@
     <thead>
         <tr>
             <th>#</th>
-            <th>nome</th>
-            <th>data</th>
-            <th>link</th>
+            <th>Nome</th>
+            <th>Data</th>
+            <th>Preview</th>
         </tr>
     </thead>
     <tbody>
@@ -44,9 +44,15 @@
         </tr> -->
          <tr>
             <td>06</td>
-            <td>Cartão de embarque</td>
+            <td><a href="06">Cartão de embarque</a></td>
             <td>16/02/23</td>
-            <td><a href="06">🔗</a></td>
+            <td align="center"><a href="06"><img width="300px" src="06/.github/preview.png"/></a></td>
+        </tr>
+        <tr>
+            <td>07</td>
+            <td>Site para encontrar o seu bloco de carnaval </td>
+            <td>23/02/23</td>
+            <td align="center"><a href="07"><img width="300px" src="07/.github/preview.png"/></a></td>
         </tr>
     </tbody>
 </table>

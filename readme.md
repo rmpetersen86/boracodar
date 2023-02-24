@@ -54,6 +54,12 @@
             <td>23/02/23</td>
             <td align="center"><a href="07"><img width="300px" src="07/.github/preview.png"/></a></td>
         </tr>
+        <tr>
+            <td>08</td>
+            <td>Site para encontrar o seu bloco de carnaval </td>
+            <td>23/02/23</td>
+            <td align="center"><a href="08"><img width="300px" src="08/.github/preview.png"/></a></td>
+        </tr>
     </tbody>
 </table>
 

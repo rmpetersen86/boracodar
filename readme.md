@@ -50,14 +50,14 @@
         </tr>
         <tr>
             <td>07</td>
-            <td>Site para encontrar o seu bloco de carnaval </td>
+            <td><a href="07">Site para encontrar o seu bloco de carnaval</a></td>
             <td>23/02/23</td>
             <td align="center"><a href="07"><img width="300px" src="07/.github/preview.png"/></a></td>
         </tr>
         <tr>
             <td>08</td>
-            <td>Site para encontrar o seu bloco de carnaval </td>
-            <td>23/02/23</td>
+            <td><a href="08">Um dashboard</a></td>
+            <td>27/02/23</td>
             <td align="center"><a href="08"><img width="300px" src="08/.github/preview.png"/></a></td>
         </tr>
     </tbody>

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  background-color: #292738;
+  height: 100vh;
+  display: grid;
+}
+
+.content {
+  color: white;
+  max-width: 112rem;
+  margin: auto;
+  margin-top: 11.2rem;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 22% 32% 40%;
+  gap: 3.2rem;
+  height: 37.9rem;
+}
+
+.bottom {
+  display: grid;
+  margin-top: 4.2rem;
+  height: 31.4rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.9rem 4.8rem;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #363447;
+  box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.6rem;
+}
+
+.card h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+}
+
+.card strong {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.card .result {
+  display: grid;
+  gap: 1.6rem;
+  justify-items: center;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sub i {
+  font-size: 2.2rem;
+}
+
+.result span {
+  color: #81fbb8;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.card .sub {
+}
+
+.bottom .card {
+}
+
+.ph-circle-fill {
+  font-size: 2.2rem;
+}
+
+#circle-index {
+  color: #4a4556;
+}
+
+#circle-sales {
+  background: linear-gradient(121.94deg, #ce9ffc 15.98%, #7367f0 82.85%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#circle-month {
+  background: linear-gradient(121.94deg, #df9780 15.98%, #a66de9 82.85%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

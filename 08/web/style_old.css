@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #292738;
+  font-family: "Inter", sans-serif;
+}
+
+.grid {
+  display: grid;
+}
+
+.column {
+  grid-auto-flow: column;
+}
+
+main {
+  max-width: 112rem;
+  margin: auto;
+  margin-top: 11.2rem;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 22% 32% 40%;
+  gap: 3.2rem;
+}
+
+.bottom {
+  margin-top: 5.9rem;
+  max-height: 31.4rem;
+}
+
+.card {
+  dispĺay: grid;
+  text-align: center;
+  gap: 3.2rem;
+  padding: 2.9rem 4.8rem;
+  background-color: #363447;
+  box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.6rem;
+  color: #ffffff;
+}
+
+.bottom .card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom .card .info {
+}
+
+.card h2 {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.graph {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 60%;
+}
+
+.card span {
+  color: #81fbb8;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.card .result {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}

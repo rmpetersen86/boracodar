@@ -5,10 +5,36 @@
 <table>
     <thead>
         <tr>
-            <th>#</th>
-            <th>Nome</th>
-            <th>Data</th>
-            <th>Preview</th>
+            <th align="center">
+                <img width="20" height="1"> 
+                <p>
+                    <small>#</small>
+                </p>
+            </th>
+            <th align="center">
+                <img width="300" height="1"> 
+                <p> 
+                    <small>
+                        NAME
+                    </small>
+                </p>
+            </th>
+            <th align="left">
+                <img width="140" height="1">
+                <p align="left"> 
+                    <small>
+                    RELEASE DATE
+                    </small>
+                </p>
+            </th>
+            <th align="center">
+                <img width="201" height="1">
+                <p align="center"> 
+                    <small>
+                    PREVIEW
+                    </small>
+                </p>
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -46,19 +72,41 @@
             <td>06</td>
             <td><a href="06">Cartão de embarque</a></td>
             <td>16/02/23</td>
-            <td align="center"><a href="06"><img width="300px" src="06/.github/preview.png"/></a></td>
+            <td align="center">
+            <a href="06">
+            <img width="300px" src="06/.github/preview.png"/>
+            </a>
+            </td>
         </tr>
         <tr>
             <td>07</td>
             <td><a href="07">Site para encontrar o seu bloco de carnaval</a></td>
             <td>23/02/23</td>
-            <td align="center"><a href="07"><img width="300px" src="07/.github/preview.png"/></a></td>
+            <td align="center" height="160px" style="display: flex; align-items: flex-start; overflow: hidden">
+            <a href="07">
+            <img width="300px" src="07/.github/preview.png" style="object-fit: cover;"/>
+            </a>
+            </td>
         </tr>
         <tr>
             <td>08</td>
             <td><a href="08">Um dashboard</a></td>
             <td>27/02/23</td>
-            <td align="center"><a href="08"><img width="300px" src="08/.github/preview.png"/></a></td>
+            <td align="center">
+            <a href="08">
+            <img src="08/.github/preview.png" style="object-fit: cover"/>
+            </a>
+            </td>
+        </tr>
+        <tr>
+            <td>09</td>
+            <td><a href="09">Conversor de moedas</a></td>
+            <td>03/03/23</td>
+            <td align="center">
+            <a href="09">
+            <img src="09/.github/preview.png" style="object-fit: cover"/>
+            </a>
+            </td>
         </tr>
     </tbody>
 </table>
